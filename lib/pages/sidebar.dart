@@ -27,8 +27,8 @@ class _SidebarState extends State<Sidebar> {
                 ),
               ),
             ),
-            accountName: const Text("Disobey Murotov"),
-            accountEmail: const Text("+998 919228235"),
+            accountName: const Text("Diyorbek Murotov",style: TextStyle(color: Colors.black),),
+            accountEmail: const Text("+998 919228235",style: TextStyle(color: Colors.black),),
             decoration: const BoxDecoration(
               image: DecorationImage(
                 image: NetworkImage(

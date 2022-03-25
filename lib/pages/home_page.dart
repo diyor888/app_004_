@@ -46,7 +46,8 @@ class _HomePageState extends State<HomePage> {
       drawer: const Sidebar(),
       body: const Center(
         child: Image(
-          image: AssetImage("assets/images/img.jpg"),
+          image: AssetImage("assets/images/img.jpg",),
+          fit: BoxFit.cover,
         ),
       ),
     );
